@@ -1,0 +1,19 @@
+<?php
+    return [
+        'db' => [
+            'connection' => [
+                'magento1' => [
+                    'host' => '{MG1_HOST}',
+                    'dbname' => '{MG1_DB_NAME}',
+                    'username' => '{MG1_DB_USER}',
+                    'password' => '{MG1_DB_PASS}',
+                    'active' => '1'
+                ]
+            ]
+        ],
+        'resource' => [
+            'magento1' => [
+                'connection' => 'magento1'
+            ]
+        ]
+    ];

@@ -1,0 +1,23 @@
+{
+  "name": "noita/customImport",
+  "description": "The module provides add or update data with console command manually or run the cron.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.*"
+  },
+  "authors": [
+    {
+      "name": "Evi Noita",
+      "email": "evi.noita@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Noita\\CustomImport\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
